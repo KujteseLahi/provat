@@ -1,0 +1,303 @@
+.backgroundi {
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-image: url(login1.jpg);
+    background-size: 100% 100%;
+}
+
+.shade {
+    margin: 0;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.BoxiKryesor {
+    margin-top: 4%;
+    margin-bottom: 8%;
+    margin-left: 10%;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px;
+    box-shadow: 0 0 20px 0 #000;
+    font-weight: bold;
+    height: 80vh;
+    width: 80vw;
+}
+
+.button {
+    border: none;
+    background: gainsboro;
+    color: black;
+    width: 10vw;
+    margin-top: 1%;
+    margin-left: 55%;
+    height: 5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0px;
+    box-shadow: 0 0 10px 0 #000;
+    font-weight: bold;
+}
+.button:hover{
+    transform: scale(1.1);
+    background-color: gray;
+    box-shadow: 2px 2px 12px rgba(47,47,47,0.40);
+    transition: all ease 0.1s;
+}
+
+.FOTOBox {
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.AboutUsBoxi {
+    margin: auto;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Menu {
+    margin: 0;
+    flex-direction: row;
+    display: flex;
+    width: 50px;
+    height: 70px;
+}
+
+.Button1 {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gainsboro(173, 4, 4);
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin-top: 20%;
+    border-color: white;
+    box-shadow: white;
+    border-radius: 0px;
+}
+
+.button:hover {
+    color: black;
+    background-color: gray;
+}
+
+.meny {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    width: 100px;
+    height: 80px;
+    margin-top: 5%;
+    margin-left: 45%;
+    border-bottom: black;
+}
+
+#homebtn {
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 5%;
+    border-color: white;
+    background: none;
+}
+
+#homebtn:hover {
+    border-color: black;
+    cursor: pointer;
+}
+
+#imge {
+    height: 40px;
+    width: 40px;
+}
+
+.middlepart {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: gainsboro;
+    width: auto;
+    height: auto;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    width: 100vw;
+    height: 25vh;
+    color:black;
+    position: relative;
+    margin-right: inherit;
+    bottom: 0;
+}
+
+.pckMrk {
+    display: flex;
+    font-family: Calibri;
+    font-size: 45px;
+    justify-content: justify;
+    background-color: gainsboro;
+    color: white;
+    text-align: justify;
+}
+
+.downmenu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: black;
+    font-family: 'Calibri';
+    margin-left: 30%;
+}
+
+#footbtn {
+    width: 40%;
+    height: auto;
+    border-color: white;
+    margin-top: 1%;
+    background-color: gainsboro;
+    color: black;
+}
+
+#footbtn:hover {
+    background-color: silver;
+}
+
+#aboutus {
+    justify-content: right;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    background-color: gainsboro;
+    border: none;
+    margin-left: 6%;
+    box-shadow: none;
+}
+
+.footbx2:hover {
+    border-color: white;
+}
+
+#copy {
+    color: black;
+    justify-content: center;
+    font-family: 'Calibri';
+    background-color: gainsboro;
+    display: flex;
+}
+
+.oc {
+    color: black;
+    font-family: 'Calibri';
+    display: flex;
+    margin-right: 5%;
+}
+
+.footbx2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.bsh {
+    width: 100px;
+    height: 50px;
+}
+
+.photos2 {
+    justify-content: right;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.footbx3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 85%;
+    color: black;
+}
+.textarea{
+    margin-left: 10%;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 8%;
+
+   
+
+
+}
+#area{
+    
+    height: 30vh;
+    border: 3px solid gainsboro;
+    border-radius: 4px;
+    width: 90%;
+    border-radius: 0px;
+    box-shadow: 0 0 10px 0 #000;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+
+
+
+@media only screen and  (max-width: 375px){
+    
+    .footbx2{
+          margin-top: 5px;
+          margin-bottom: 5px;
+    }
+     
+    .footer{
+       display: flex;
+       flex-direction: column;
+        
+       
+        
+
+        
+        
+    }
+    .footbx3{
+         margin-left: 10%;
+
+    }
+    .meny{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 10%;
+        
+    }
+    #homebtn{
+        margin-left: 7%;
+    }
+    #area{
+        
+        width:200px;
+        height: 100px;
+    }
+    .FOTOBox{
+        width: 100px;
+        height: 200px;
+    }
+    .BoxiKryesor{
+        margin-left:3%;
+    }
+   
+}
